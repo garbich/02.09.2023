@@ -13,7 +13,7 @@ public:
 		next2 = nullptr;
 	}
 	Node(int value) {
-		value = this->value;
+		this->value = value;
 	}
 };
 
